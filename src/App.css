@@ -1,50 +1,73 @@
 body {
-  margin: unset;
-  font-family: 'Helvetica Neue',Segoe UI,Roboto,Ubuntu,sans-serif;
-  background: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Segoe UI, Roboto, Ubuntu, sans-serif;
+    background: black;
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 26px 56px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 26px 56px;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
 }
 
 header .logo svg {
-  fill: rgb(229,9,20);
-  height: 40px;
+    fill: rgb(229, 9, 20);
+    height: 40px;
 }
 
-header div+div {
-  text-align: right;
+.headerDivTwo {
+    text-align: right;
+    width: 738px;
+}
+
+header div + div {
+    /*text-align: right;*/
 }
 
 header a.button {
-  display: inline-block;
-  background-color: rgb(229,9,20);
-  color: white;
-  text-decoration: none;
-  padding: 7px 17px;
-  border-radius: 3px;
+    display: inline-block;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    text-decoration: none;
+    padding: 7px 17px;
+    border-radius: 3px;
 }
 
 select {
-  background: transparent;
-  color: white;
-  padding: 6px 6px 6px 17px;
-  border-radius: 3px;
+    background: transparent;
+    color: white;
+    padding: 6px 6px 6px 17px;
+    border-radius: 3px;
 }
 
 .select {
-  display: inline-block;
-  margin-right: 30px;
+    display: inline-block;
+    margin-right: 30px;
 }
 
-.select svg{
-  /*background-color: green;*/
-  height: 20px;
-  fill: white;
-  position: absolute;
-  margin-top: 2px;
-  margin-left: 2px;
+.select svg {
+    height: 20px;
+    fill: white;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.background {
+    position: relative;
+}
+
+.background img {
+    max-width: 100%;
+    opacity: 0.6;
+}
+
+.gradient {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    inset: 0;
 }
