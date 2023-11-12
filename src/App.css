@@ -64,7 +64,7 @@ select {
     margin-left: 2px;
 }
 
-.background {
+.splash {
     position: relative;
 }
 
@@ -77,4 +77,21 @@ select {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
     position: absolute;
     inset: 0;
+}
+
+.content {
+    max-width: 655px;
+    /*left: 50%;*/
+    /*margin-left: 325px;*/
+    position: absolute;
+    inset: 0;
+    left: 50%;
+    margin-left: -325px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 3.125rem;
 }
