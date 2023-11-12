@@ -40,6 +40,21 @@ function App() {
                          className="default-ltr-cache-ve3cf8 eae08lb0"/>
                     <div className="gradient"></div>
                 </div>
+                <div>
+                    <h1>
+                        Enjoy big movies, hit series and more from JPY790.
+                    </h1>
+                    <h2>
+                        Join today. Cancel anytime.
+                    </h2>
+                    <h3>
+                        Ready to watch? Enter your email to create or restart your membership.
+                    </h3>
+                    <form placeholder="Email Address">
+                        <input type="email"></input>
+                    </form>
+                    <button>Get Started &gt;</button>
+                </div>
             </div>
         </>
     )
