@@ -112,7 +112,32 @@ h3 {
 }
 
 form {
-    margin-top: 1rem;
+    position: relative;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr max-content;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+div.splash input ~ span {
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    z-index: 5;
+    color: #ddd;
+}
+
+.getStartedButton {
+    height: 47px;
+    width: 130px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 7px 17px;
 }
