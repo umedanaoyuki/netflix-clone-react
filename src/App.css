@@ -118,7 +118,7 @@ form {
     grid-template-columns: 1fr max-content;
 }
 
-input {
+div.splash input {
     padding: 10px;
     font-size: 1.2rem;
     width: 100%;
@@ -130,6 +130,13 @@ div.splash input ~ span {
     top: 14px;
     z-index: 5;
     color: #ddd;
+    transition: all 0.3s ease;
+    /*pointer-events: none;*/
+}
+
+div.splash input:focus {
+    padding-top: 14px;
+    padding-bottom: 6px;
 }
 
 .getStartedButton {
