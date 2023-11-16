@@ -167,3 +167,19 @@ section {
 .texts {
     font-size: 1.625rem;
 }
+
+.media-s1 {
+    position: relative;
+}
+
+.media-s1 img {
+    width: 400px;
+}
+
+.media-s1 video {
+    width: 293px;
+    position: absolute;
+    top: 62px;
+    left: 52px;
+
+}

@@ -70,9 +70,10 @@ function App() {
                 <div className="texts">
                     <h1 className="section-title">Enjoy on your TV.</h1>
                     <p>Watch on smart TVs, playstation, Xbox</p>
-                    <div className="media">
+                    <div className="media-s1">
                         <div>
-                            <img src="" alt=""/>
+                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                                 alt=""/>
                             <video className="videoName"
                                    autoPlay playsInline muted loop
                                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-jp-0819.m4v"
@@ -85,21 +86,21 @@ function App() {
                 <div className="texts">
                     <h1 className="section-title">Enjoy on your TV.</h1>
                     <p>Watch on smart TVs, playstation, Xbox</p>
-                    <div className="media"></div>
+                    <div className="media-s2"></div>
                 </div>
             </section>
             <section>
                 <div className="texts">
                     <h1 className="section-title">Enjoy on your TV.</h1>
                     <p>Watch on smart TVs, playstation, Xbox</p>
-                    <div className="media"></div>
+                    <div className="media-s3"></div>
                 </div>
             </section>
             <section>
                 <div className="texts">
                     <h1 className="section-title">Enjoy on your TV.</h1>
                     <p>Watch on smart TVs, playstation, Xbox</p>
-                    <div className="media"></div>
+                    <div className="media-s4"></div>
                 </div>
             </section>
         </>
