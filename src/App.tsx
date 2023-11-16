@@ -68,28 +68,36 @@ function App() {
 
             <section>
                 <div className="texts">
-                    <h1>Enjoy on your TV.</h1>
+                    <h1 className="section-title">Enjoy on your TV.</h1>
+                    <p>Watch on smart TVs, playstation, Xbox</p>
+                    <div className="media">
+                        <div>
+                            <img src="" alt=""/>
+                            <video className="videoName"
+                                   autoPlay playsInline muted loop
+                                   src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-jp-0819.m4v"
+                                   typeof="video/mp4"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="texts">
+                    <h1 className="section-title">Enjoy on your TV.</h1>
                     <p>Watch on smart TVs, playstation, Xbox</p>
                     <div className="media"></div>
                 </div>
             </section>
             <section>
                 <div className="texts">
-                    <h1>Enjoy on your TV.</h1>
+                    <h1 className="section-title">Enjoy on your TV.</h1>
                     <p>Watch on smart TVs, playstation, Xbox</p>
                     <div className="media"></div>
                 </div>
             </section>
             <section>
                 <div className="texts">
-                    <h1>Enjoy on your TV.</h1>
-                    <p>Watch on smart TVs, playstation, Xbox</p>
-                    <div className="media"></div>
-                </div>
-            </section>
-            <section>
-                <div className="texts">
-                    <h1>Enjoy on your TV.</h1>
+                    <h1 className="section-title">Enjoy on your TV.</h1>
                     <p>Watch on smart TVs, playstation, Xbox</p>
                     <div className="media"></div>
                 </div>

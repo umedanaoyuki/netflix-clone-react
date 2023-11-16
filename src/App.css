@@ -152,3 +152,18 @@ div.splash input:focus {
     font-weight: bold;
     padding: 12px 26px;
 }
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 46px;
+    padding: 70px 35px;
+}
+
+.section-title {
+    font-size: 3.125rem;
+}
+
+.texts {
+    font-size: 1.625rem;
+}
