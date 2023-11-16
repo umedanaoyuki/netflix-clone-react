@@ -65,6 +65,35 @@ function App() {
                     </div>
                 </div>
             </div>
+
+            <section>
+                <div className="texts">
+                    <h1>Enjoy on your TV.</h1>
+                    <p>Watch on smart TVs, playstation, Xbox</p>
+                    <div className="media"></div>
+                </div>
+            </section>
+            <section>
+                <div className="texts">
+                    <h1>Enjoy on your TV.</h1>
+                    <p>Watch on smart TVs, playstation, Xbox</p>
+                    <div className="media"></div>
+                </div>
+            </section>
+            <section>
+                <div className="texts">
+                    <h1>Enjoy on your TV.</h1>
+                    <p>Watch on smart TVs, playstation, Xbox</p>
+                    <div className="media"></div>
+                </div>
+            </section>
+            <section>
+                <div className="texts">
+                    <h1>Enjoy on your TV.</h1>
+                    <p>Watch on smart TVs, playstation, Xbox</p>
+                    <div className="media"></div>
+                </div>
+            </section>
         </>
     )
 }
