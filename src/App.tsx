@@ -83,19 +83,18 @@ function App() {
                 </div>
             </section>
             <section>
+                <div className="media-s1">
+                    <div>
+                        <img alt=""
+                             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-jp.png"/>
+                        <video autoPlay playsInline muted loop
+                               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                               typeof="video/mp4"/>
+                    </div>
+                </div>
                 <div className="texts">
                     <h1 className="section-title">Watch everywhere</h1>
                     <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
-                </div>
-                <div className="media-s1">
-                    <div>
-                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-                             alt=""/>
-                        <video className="videoName"
-                               autoPlay playsInline muted loop
-                               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-jp-0819.m4v"
-                               typeof="video/mp4"/>
-                    </div>
                 </div>
             </section>
             <section>
@@ -106,29 +105,22 @@ function App() {
                 </div>
                 <div className="media-s1">
                     <div>
-                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-                             alt=""/>
-                        <video className="videoName"
-                               autoPlay playsInline muted loop
-                               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-jp-0819.m4v"
-                               typeof="video/mp4"/>
+                        <img alt=""
+                             src="https://occ-0-7609-993.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55"/>
                     </div>
                 </div>
             </section>
             <section>
+
+                <div className="media-s1">
+                    <div>
+                        <img alt=""
+                             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"/>
+                    </div>
+                </div>
                 <div className="texts">
                     <h1 className="section-title">Download your shows to watch offline</h1>
                     <p>Watch on a plane, train, or submarine...</p>
-                </div>
-                <div className="media-s1">
-                    <div>
-                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-                             alt=""/>
-                        <video className="videoName"
-                               autoPlay playsInline muted loop
-                               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-jp-0819.m4v"
-                               typeof="video/mp4"/>
-                    </div>
                 </div>
             </section>
         </>
