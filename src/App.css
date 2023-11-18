@@ -182,5 +182,32 @@ section {
     position: absolute;
     top: 62px;
     left: 52px;
-
 }
+
+section:nth-child(even) div.texts {
+    order: 2;
+}
+
+section div.download {
+    border: 2px solid #666;
+    border-radius: 15px;
+    padding: 10px;
+    height: 95px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 340px;
+    left: 50%;
+    margin-left: -210px;
+    background-color: black;
+    grid-template-columns: max-content 1fr;
+    gap: 15px
+}
+
+.cover {
+    height: 75px;
+    width: 65px;
+}
+

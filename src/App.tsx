@@ -111,11 +111,15 @@ function App() {
                 </div>
             </section>
             <section>
-
                 <div className="media-s1">
                     <div>
                         <img alt=""
                              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"/>
+                        <div className="download">
+                            <img className="cover"
+                                 src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"/>
+                            <span>Downloading...</span>
+                        </div>
                     </div>
                 </div>
                 <div className="texts">
