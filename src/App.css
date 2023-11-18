@@ -238,8 +238,8 @@ faq {
 
 .question svg {
     width: 30px;
-    height: 30px;
-    right: 10px;
+    height: 50px;
+    right: 20px;
     top: 10px;
     position: absolute;
 }
@@ -247,6 +247,7 @@ faq {
 .questionHeader {
     padding: 20px 30px;
     border-bottom: 2px solid black;
+    cursor: pointer;
 }
 
 .questionAnswer {
