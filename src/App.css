@@ -158,6 +158,7 @@ section {
     grid-template-columns: 1fr 1fr;
     gap: 46px;
     padding: 70px 35px;
+    border-top: 5px solid #232323;
 }
 
 .section-title {
