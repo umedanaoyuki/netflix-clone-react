@@ -252,5 +252,12 @@ faq {
 }
 
 .questionAnswer {
-    padding: 30px;
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+div.question input[type="checkbox"]:checked ~ div.questionAnswer {
+    padding: 0 30px;
+    max-height: 600px;
 }
