@@ -245,6 +245,7 @@ faq {
 }
 
 .questionHeader {
+    display: block;
     padding: 20px 30px;
     border-bottom: 2px solid black;
     cursor: pointer;
