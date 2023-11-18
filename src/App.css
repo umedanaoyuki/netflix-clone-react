@@ -215,3 +215,40 @@ section div.download {
 .last {
     border-bottom: 8px solid #222;
 }
+
+faq {
+    padding: 70px 30px;
+}
+
+.faq h1 {
+    font-size: 3.125rem;
+    text-align: center;
+}
+
+.questions {
+    max-width: 1270px;
+    margin: 0 auto;
+    font-size: 1.625rem;
+}
+
+.question {
+    position: relative;
+    background-color: #303030;
+}
+
+.question svg {
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.questionHeader {
+    padding: 20px 30px;
+    border-bottom: 2px solid black;
+}
+
+.questionAnswer {
+    padding: 30px;
+}
