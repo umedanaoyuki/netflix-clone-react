@@ -110,7 +110,7 @@ function App() {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="last">
                 <div className="media-s1">
                     <div>
                         <img alt=""
