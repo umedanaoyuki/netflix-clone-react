@@ -223,6 +223,8 @@ faq {
 .faq h1 {
     font-size: 3.125rem;
     text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .questions {
@@ -242,6 +244,8 @@ faq {
     right: 20px;
     top: 10px;
     position: absolute;
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
 }
 
 .questionHeader {
@@ -255,6 +259,7 @@ faq {
     padding: 0 30px;
     max-height: 0;
     overflow: hidden;
+    transition: all 0.2s ease;
 }
 
 div.question input[type="checkbox"] {
@@ -264,4 +269,8 @@ div.question input[type="checkbox"] {
 div.question input[type="checkbox"]:checked ~ div.questionAnswer {
     padding: 30px 30px;
     max-height: 600px;
+}
+
+div.question input[type="checkbox"]:checked ~ .questionHeader svg {
+    transform: rotate(180deg);
 }
