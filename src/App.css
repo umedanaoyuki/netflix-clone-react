@@ -64,9 +64,6 @@ select {
     margin-left: 2px;
 }
 
-.splash {
-    position: relative;
-}
 
 .background img {
     max-width: 100%;
@@ -118,6 +115,10 @@ form {
     grid-template-columns: 1fr max-content;
 }
 
+.splash {
+    position: relative;
+}
+
 div.splash input {
     padding: 15px 10px;
     font-size: 1.2rem;
@@ -140,6 +141,34 @@ div.splash input:focus {
     padding-top: 14px;
     padding-bottom: 6px;
 }
+
+.splashBottom {
+    position: relative;
+}
+
+div.splashBottom input {
+    padding: 15px 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    /*border-radius: 3px;*/
+}
+
+div.splashBottom input ~ span {
+    position: absolute;
+    left: 10px;
+    top: 19px;
+    z-index: 5;
+    color: #ddd;
+    transition: all 0.3s ease;
+    /*pointer-events: none;*/
+    border-radius: 3px;
+}
+
+div.splashBottom input:focus {
+    padding-top: 14px;
+    padding-bottom: 6px;
+}
+
 
 .getStartedButton {
     font-size: 1.625rem;

@@ -41,6 +41,12 @@ function App() {
                 <QuestionFive/>
                 <QuestionSix/>
             </div>
+            <div className=""></div>
+            <div className="splashBottom">
+                <div className="content">
+                    <SearchBox/>
+                </div>
+            </div>
         </>
     )
 }
