@@ -260,6 +260,7 @@ faq {
     max-height: 0;
     overflow: hidden;
     transition: all 0.2s ease;
+    margin-bottom: 2px;
 }
 
 div.question input[type="checkbox"] {
