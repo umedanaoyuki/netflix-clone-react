@@ -8,6 +8,11 @@ import {SectionTwo} from "./components/Sections/SectionTwo.tsx";
 import {SectionThree} from "./components/Sections/SectionThree.tsx";
 import {SectionFour} from "./components/Sections/SectionFour.tsx";
 import {QuestionOne} from "./components/Questions/QuestionOne.tsx";
+import {QuestionTwo} from "./components/Questions/QuestionTwo.tsx";
+import {QuestionThree} from "./components/Questions/QuestionThree.tsx";
+import {QuestionFour} from "./components/Questions/QuestionFour.tsx";
+import {QuestionFive} from "./components/Questions/QuestionFive.tsx";
+import {QuestionSix} from "./components/Questions/QuestionSix.tsx";
 
 
 function App() {
@@ -30,6 +35,11 @@ function App() {
             <SectionFour/>
             <div className="faq">
                 <QuestionOne/>
+                <QuestionTwo/>
+                <QuestionThree/>
+                <QuestionFour/>
+                <QuestionFive/>
+                <QuestionSix/>
             </div>
         </>
     )
