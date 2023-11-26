@@ -88,6 +88,7 @@ select {
     display: grid;
     align-items: center;
     text-align: center;
+
 }
 
 h1 {
@@ -103,7 +104,9 @@ h2 {
 
 h3 {
     font-size: 1.25rem;
-    font-weight: 400;
+    white-space: nowrap;
+    font-weight: 350;
+    /*font-weight: bold;*/
     line-height: 1.5;
     margin: 1.5rem;
 }
@@ -303,4 +306,8 @@ div.question input[type="checkbox"]:checked ~ div.questionAnswer {
 
 div.question input[type="checkbox"]:checked ~ .questionHeader svg {
     transform: rotate(180deg);
+}
+
+form {
+    margin-top: 0;
 }
